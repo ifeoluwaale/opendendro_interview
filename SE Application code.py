@@ -5,7 +5,7 @@
 import csv
 
 def main():
-    file = open(input("Enter file name: "), "r")
+    file = open(input("Enter file name with path: "), "r")
 
     csvreader = csv.reader(file)
 
